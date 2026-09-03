@@ -22,7 +22,12 @@ body {
 }
 
 body {
-  background: #fff;
+  background: #2f2c28;
+  background-image: radial-gradient(
+    1200px 700px at 50% -8%,
+    #524e45 0%,
+    #2f2c28 64%
+  );
 }
 
 .toolbar {
@@ -39,34 +44,32 @@ body {
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #1a1a18;
+  color: #faf8f3;
   background: transparent;
-  border: 1px solid #c8c2b4;
+  border: 1px solid #8a8476;
   padding: 8px 14px;
   cursor: pointer;
   text-decoration: none;
 }
 
 .toolbar button:hover,
-.toolbar button:focus-visible,
-.toolbar .download:hover,
-.toolbar .download:focus-visible {
-  background: #1a1a18;
-  color: #fff;
-  border-color: #1a1a18;
+.toolbar button:focus-visible {
+  background: #fff;
+  color: #1a1a18;
+  border-color: #fff;
   outline: none;
 }
 
 .toolbar .download {
-  background: #1a1a18;
-  color: #fff;
-  border-color: #1a1a18;
+  background: #fff;
+  color: #1a1a18;
+  border-color: #fff;
 }
 
 .toolbar .download:hover,
 .toolbar .download:focus-visible {
-  background: #fff;
-  color: #1a1a18;
+  background: transparent;
+  color: #fff;
 }
 
 .toolbar-note {
@@ -75,7 +78,7 @@ body {
   font-family: "Jost", sans-serif;
   font-size: 12px;
   letter-spacing: 0.04em;
-  color: #7a7568;
+  color: #c8c2b4;
 }
 
 @media print {
